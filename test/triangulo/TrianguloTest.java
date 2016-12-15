@@ -46,6 +46,8 @@ public class TrianguloTest {
     @Test
     public void testVerTriangulo() {
         assertEquals(true, t.verTriangulo(5, 6, 7));
+        assertEquals(true, t.verTriangulo(6, 6, 6));
+        assertEquals(true, t.verTriangulo(5, 6, 5));
         assertEquals(false, t.verTriangulo(0, 0, 34));
     }
 
